@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'Calculator';
+    src: url('Calculator.ttf') format('truetype');
+}
+
+/* Estilos da calculadora */
+
+body{
+    background-color: rgb(207, 181, 232);
+    font-family: 'Calculator';
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 600px;
+    background-color: #000;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    overflow: hidden;
+}
+
+#resultado{
+    font-family: 'Calculator';
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 365px;
+    height: 85px;
+    border-radius: 10px;
+    background-color: #64938e;
+    text-align: right;
+    padding:0 20px;
+    box-sizing: border-box;
+    color: #000;
+    overflow: hidden;
+    border: none;
+    
+}
+
+#teclado{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 490px;
+
+}
+
+#teclado button{
+    width: 80px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Calculator';
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #bfbfbf;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 0 10px #000;
+    outline: none;
+}
+
+
+#teclado button:hover{
+    background-color: #898989;
+    color: #000;
+}
+
+#teclado button:active{
+    background-color: #3c3c3c;
+    color: #fff;
+}
+
+#Clear button{
+    width: 365px;
+    height: 50px;
+    background-color: #ff0000;
+    color: #fff;
+}
