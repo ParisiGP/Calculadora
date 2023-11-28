@@ -98,3 +98,11 @@ height: 490px;
     background-color: #ff0000;
     color: #fff;
 }
+
+.arrow_back a span{
+    font-size: 3rem;
+    color: #000000;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
