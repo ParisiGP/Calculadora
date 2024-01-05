@@ -99,7 +99,13 @@ height: 490px;
     color: #fff;
 }
 
-.arrow_back a span{
+.arrow_back a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
     font-size: 3rem;
     color: #000000;
     background-color: #fff;
